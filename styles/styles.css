@@ -1,0 +1,83 @@
+body {
+    font-family: "Manrope", sans-serif;
+    width: 100%;
+    background: #f5f5f5;
+}
+
+.container {
+    width: 1400px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 125px;
+    background: #fff;
+}
+
+h1 {
+    width: 956px;
+    margin-bottom: 30px;
+
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -1.8px;
+    color: #121212;
+}
+
+.image-contain {
+    background-image: url(../resources/aboutUs.png);
+    background-size: contain;
+    width: 1150px;
+    height: 500px;
+
+    color: #fff;
+}
+
+.image-contain p {
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.6px;
+
+    width: 430px;
+    padding: 379px 680px 40px 40px;
+}
+
+.aboutUs h2 {
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.54px;
+    text-transform: uppercase;
+    color: #121212;
+
+    margin-top: 150px;
+}
+
+.aboutUs h3 {
+    width: 1048px;
+    color:  #121212;
+    font-size: 45px;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 400;
+    letter-spacing: -1.35px;
+
+    margin: 30px 0;
+}
+
+.servicesLink {
+    display: block;
+    width: 255px;
+    height: 67px;
+    
+    text-align: center;
+    text-decoration: none;
+    background-color: #AD1818;
+    border-radius: 5px;
+
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 67px;
+    font-weight: 400;
+    letter-spacing: -0.6px;
+}

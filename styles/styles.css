@@ -25,20 +25,14 @@ h1 {
 .image-contain {
     background-image: url(../resources/aboutUs.png);
     background-size: contain;
-    width: 1150px;
-    height: 500px;
 
-    color: #fff;
-}
-
-.image-contain p {
     font-size: 20px;
     font-style: normal;
     line-height: normal;
     letter-spacing: -0.6px;
-
     width: 430px;
     padding: 379px 680px 40px 40px;
+    color: #fff;
 }
 
 .aboutUs h2 {

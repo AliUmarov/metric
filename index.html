@@ -14,7 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
-    <header class="container">
+    <header class="header container">
       <a class="logo" href="/">
         <img src="resources/logo.png" alt="Логотип 'Метрика'" />
       </a>
@@ -62,36 +62,45 @@
       <ul class="all-projects">
         <li class="project">
           <picture>
-            <source media="(max-width: 375px)" srcset="resources/right__phone_1.png">
+            <source
+              media="(max-width: 375px)"
+              srcset="resources/right__phone_1.png"
+            />
             <img
-            class="project__image"
-            src="resources/projects-image-1.png"
-            alt="ЖК Правобережный"
-          />
+              class="project__image"
+              src="resources/projects-image-1.png"
+              alt="ЖК Правобережный"
+            />
           </picture>
           <h3 class="project__subtitle">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h3>
           <a class="project__link" href="/">Подробнее →</a>
         </li>
         <li class="project">
           <picture>
-            <source media="(max-width: 375px)" srcset="resources/park__phone_2.png">
+            <source
+              media="(max-width: 375px)"
+              srcset="resources/park__phone_2.png"
+            />
             <img
-            class="project__image"
-            src="resources/projects-image-2.png"
-            alt="ЖК НОРВЕЖСКИЙ ПАРК"
-          />
+              class="project__image"
+              src="resources/projects-image-2.png"
+              alt="ЖК НОРВЕЖСКИЙ ПАРК"
+            />
           </picture>
           <h3 class="project__subtitle">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</h3>
           <a class="project__link" href="/">Подробнее →</a>
         </li>
         <li class="project">
           <picture>
-            <source media="(max-width: 375px)" srcset="resources/lake__phone_3.png">
+            <source
+              media="(max-width: 375px)"
+              srcset="resources/lake__phone_3.png"
+            />
             <img
-            class="project__image"
-            src="resources/projects-image-3.png"
-            alt="ЖК СОСНОВСКИЕ ОЗЕРА"
-          />
+              class="project__image"
+              src="resources/projects-image-3.png"
+              alt="ЖК СОСНОВСКИЕ ОЗЕРА"
+            />
           </picture>
           <h3 class="project__subtitle">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</h3>
           <a class="project__link" href="/">Подробнее →</a>
@@ -100,49 +109,35 @@
       <a class="all-projects__btn" href="/">Смотреть все проекты</a>
     </section>
 
-    <!-- <section class="backgroung__dark">
+    <section class="backgroung__dark">
       <div class="container">
-        <ul class="allservices">
-          <h2 id="services" class="services__title">услуги</h2>
-          <li class="service">
-            <img
-              class="service__image"
-              src="resources/sevices-image-1.png"
-              alt="Планировочное решение — от 2500₽/м²"
-            />
-            <h3 class="service__subtitle">
-              Планировочное решение — от 2500₽/м²
-            </h3>
-          </li>
-          <li class="service">
-            <img
-              class="service__image"
-              src="resources/sevices-image-2.png"
-              alt="Дизайн-проект — от 3000₽/м²"
-            />
-            <h3 class="service__subtitle">Дизайн-проект — от 3000₽/м²</h3>
-          </li>
-          <li class="service">
-            <img
-              class="service__image"
-              src="resources/sevices-image-3.png"
-              alt="Авторский надзор — от 30 000₽ в месяц"
-            />
-            <h3 class="service__subtitle">
-              Авторский надзор — от 30 000₽ в месяц
-            </h3>
-          </li>
-          <li class="service">
-            <img
-              class="service__image"
-              src="resources/sevices-image-4.png"
-              alt="Комплектация — 5% от стоимости спецификации"
-            />
-            <h3 class="service__subtitle">
-              Комплектация — 5% от стоимости спецификации
-            </h3>
-          </li>
-        </ul>
+        <h2 id="services" class="services__title">услуги</h2>
+        <div class="services">
+          <div class="services__wrapper">
+            <div class="service__first">
+              <div class="service__price">от 2500₽/м²</div>
+            </div>
+            <p class="services__subtitle">Планировочное решение</p>
+          </div>
+          <div class="services__wrapper">
+            <div class="service__second">
+              <div class="service__price">от 3000₽/м²</div>
+            </div>
+            <p class="services__subtitle">Дизайн-проект</p>
+          </div>
+          <div class="services__wrapper">
+            <div class="service__third">
+              <div class="service__price">от 30 000₽/мес</div>
+            </div>
+            <p class="services__subtitle">Авторский надзор</p>
+          </div>
+          <div class="services__wrapper">
+            <div class="service__fourth">
+              <div class="service__price">5% от стоимости</div>
+            </div>
+            <p class="services__subtitle">Комплектация</p>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -177,6 +172,6 @@
         </li>
       </nav>
       <p class="footer__studio-name">студия дизайна интерьера Метрика — 2023</p>
-    </footer> -->
+    </footer>
   </body>
 </html>

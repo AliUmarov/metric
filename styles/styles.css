@@ -12,17 +12,17 @@ body {
   background: #fff;
 }
 
-.container:nth-child(1) {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 33px;
-  margin-bottom: 70px;
-}
-
 .container {
   margin: 0 auto;
   max-width: 1180px;
   padding: 0 15px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 33px;
+  margin-bottom: 70px;
 }
 
 .navigation {
@@ -175,7 +175,6 @@ body {
 
 .services__title {
   margin-bottom: 34px;
-  font-weight: 400;
   font-size: 18px;
   line-height: 25px;
   letter-spacing: -0.6px;
@@ -183,16 +182,77 @@ body {
   color: #fff;
 }
 
-.service__image {
-  margin-bottom: 15px;
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  /* gap: 20px; Пространство между элементами */
+  justify-content: space-between; 
 }
 
-.service__subtitle {
-  margin-bottom: 70px;
-  font-size: 30px;
-  font-weight: 400;
-  letter-spacing: -0.9px;
+.service__first {
+  width: 569px;
+  height: 388.03px;
+  margin-right: 11px;
+  margin-bottom: 25px;
+  position: relative;
+  background-image: url("../resources/planirovka.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.service__second {
+  width: 569px;
+  height: 388.03px;
+  margin-bottom: 25px;
+  position: relative;
+  background-image: url("../resources/dizayn.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.service__third {
+  width: 569px;
+  height: 388.03px;
+  margin-right: 11px;
+  margin-bottom: 25px;
+  position: relative;
+  background-image: url("../resources/nadzor.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.service__fourth {
+  width: 569px;
+  height: 388.03px;
+  margin-bottom: 25px; 
+  position: relative;
+  background-image: url("../resources/complectaciya.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.service__price {
+  padding: 10px 20px;
+  height: 40px;
+  border-radius: 5px;
+  background: #AD1818;  
+  color: #FFF;
+  font-size: 22px;
+
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.services__subtitle {
+  margin-bottom: 80px;
   color: #fff;
+  font-size: 30px;
+  letter-spacing: -0.9px;
 }
 
 .project-sample {
@@ -202,8 +262,8 @@ body {
   position: relative;
 
   background-image: url("../resources/prefooter.png");
-  background-repeat: no-repeat;
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: 50% 50%;
 }
 
@@ -443,5 +503,5 @@ body {
     flex-shrink: 0;
     text-align: center;
     font-size: 22px;
-}
+  }
 }
